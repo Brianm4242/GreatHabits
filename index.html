@@ -179,6 +179,8 @@
             </div>
         </footer>
         <!--  -->
+        
+        <form style="border: 1px solid #ccc; padding: 3px; text-align: center;" target="popupwindow" onsubmit="return toSubmitSms()" > <p><label for="pasms">Enter your SMS Number</label></p><p> <input type="text" style="width: 140px;" name="text" id="pasms"/> </p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe"/> <p> <a href="https://itsbeam.com" target="_blank" >powered by Beam</a></p></form> <script>function toSubmitSms(){let sms=document.getElementById("pasms").value; window.open( 'https://app.itsbeam.com/share/JimNewsy25/sms/' + sms, "popupwindow", "scrollbars=yes,width=900,height=600" ); return false;}</script>
 
         <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
     </body>
